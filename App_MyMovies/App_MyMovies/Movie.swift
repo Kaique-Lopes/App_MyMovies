@@ -12,5 +12,8 @@ class Movie {
     var description: String!
     var image: UIImage!
     
-    
+    init(title: String, description: String) {
+        self.title = title
+        self.description = description
+    }
 }
