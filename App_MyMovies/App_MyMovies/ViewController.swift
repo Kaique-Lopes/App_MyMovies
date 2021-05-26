@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
     var movies: [Movie] = []
     
     override func viewDidLoad() {
@@ -16,6 +16,9 @@ class ViewController: UIViewController {
             // MARK: - Variable
         var movie: Movie
         movie = Movie(title: "Filme 1", description: "Descrição Filme 1")
+        movies.append(movie)
+        
+        movie = Movie(title: "Filme 2", description: "Descrição Filme 2")
         movies.append(movie)
     }
 
