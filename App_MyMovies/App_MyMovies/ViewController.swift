@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var movies: [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-            // MARK: - 
+        
+            // MARK: - Variable
+        var movie = Movie(title: "Filme 1", description: "Descrição Filme 1")
     }
 
 
