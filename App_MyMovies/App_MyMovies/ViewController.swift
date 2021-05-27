@@ -32,6 +32,7 @@ class ViewController: UITableViewController {
         let cellReuse = "cellReuse"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellReuse, for: indexPath)
         cell.textLabel?.text = movie.title
+        cell.imageView?.image = movie.image
         return cell
     }
 }
