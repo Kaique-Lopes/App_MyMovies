@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E0464FD2655F2CE00E5AC02 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0464FC2655F2CE00E5AC02 /* Movie.swift */; };
+		1E1F5ECF2660220A00103FA7 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1F5ECE2660220A00103FA7 /* MovieCell.swift */; };
 		1E320CD52651FB3E0095CEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E320CD42651FB3E0095CEF7 /* AppDelegate.swift */; };
 		1E320CD72651FB3E0095CEF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E320CD62651FB3E0095CEF7 /* SceneDelegate.swift */; };
 		1E320CD92651FB3E0095CEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E320CD82651FB3E0095CEF7 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1E0464FC2655F2CE00E5AC02 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1E1F5ECE2660220A00103FA7 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		1E320CD12651FB3E0095CEF7 /* App_MyMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_MyMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E320CD42651FB3E0095CEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E320CD62651FB3E0095CEF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				1E320CD62651FB3E0095CEF7 /* SceneDelegate.swift */,
 				1E320CD82651FB3E0095CEF7 /* ViewController.swift */,
 				1E320CDA2651FB3E0095CEF7 /* Main.storyboard */,
+				1E1F5ECE2660220A00103FA7 /* MovieCell.swift */,
 				1E320CE02651FB3E0095CEF7 /* Assets.xcassets */,
 				1E0464FC2655F2CE00E5AC02 /* Movie.swift */,
 				1E320CE22651FB3E0095CEF7 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			files = (
 				1E320CD92651FB3E0095CEF7 /* ViewController.swift in Sources */,
 				1E320CD52651FB3E0095CEF7 /* AppDelegate.swift in Sources */,
+				1E1F5ECF2660220A00103FA7 /* MovieCell.swift in Sources */,
 				1E320CDF2651FB3E0095CEF7 /* App_MyMovies.xcdatamodeld in Sources */,
 				1E320CD72651FB3E0095CEF7 /* SceneDelegate.swift in Sources */,
 				1E0464FD2655F2CE00E5AC02 /* Movie.swift in Sources */,
