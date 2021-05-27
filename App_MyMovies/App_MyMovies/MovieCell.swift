@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import UIKit
+
+class MovieCell: UITableViewCell {
+    @IBOutlet weak var movieImageView: UIImageView!
+    
+}
