@@ -15,10 +15,10 @@ class ViewController: UITableViewController {
         
             // MARK: - Variable
         var movie: Movie
-        movie = Movie(title: "Filme 1", description: "Descrição Filme 1")
+        movie = Movie(title: "Filme 1", description: "Descrição Filme 1", image: UIImage(named: "filme1")!)
         movies.append(movie)
         
-        movie = Movie(title: "Filme 2", description: "Descrição Filme 2")
+        movie = Movie(title: "Filme 2", description: "Descrição Filme 2", image: UIImage(named: "filme2")!)
         movies.append(movie)
     }
     override func numberOfSections(in tableView: UITableView) -> Int {
