@@ -21,7 +21,9 @@ class ViewController: UITableViewController {
         movie = Movie(title: "Filme 2", description: "Descrição Filme 2")
         movies.append(movie)
     }
-
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
 
 }
 
