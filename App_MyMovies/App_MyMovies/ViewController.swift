@@ -29,7 +29,9 @@ class ViewController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let movie: Movie = movies [indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: <#T##String#>, for: <#T##IndexPath#>)
+        let cellReuse = "cellReuse"
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellReuse, for: indexPath)
+        cell.textLabel?.text = movie.title
     }
 }
 
