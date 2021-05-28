@@ -65,7 +65,9 @@ class ViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "detailsMovie" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                
+                let movieSelected = self.movies[indexPath.row]
+                let viewControllerDestination = segue.destination as! DetailsMovieViewController
+                viewControllerDestination.movie = movieSelected
             }
         }
     }
