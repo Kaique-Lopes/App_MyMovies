@@ -17,7 +17,9 @@ class DetailsMovieViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        movieImageView.image = movie.image
+        titleLabel.text = movie.title
+        descriptionLabel.text = movie.description
         
     }
 }

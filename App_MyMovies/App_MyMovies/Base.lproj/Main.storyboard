@@ -86,20 +86,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="filme2" translatesAutoresizingMaskIntoConstraints="NO" id="gLa-R3-Zev">
-                                <rect key="frame" x="20" y="91" width="374" height="346"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="filme2" translatesAutoresizingMaskIntoConstraints="NO" id="gLa-R3-Zev">
+                                <rect key="frame" x="20" y="91" width="374" height="268.33333333333331"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTv-4N-NuW">
-                                <rect key="frame" x="20" y="459" width="98" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Titulo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTv-4N-NuW">
+                                <rect key="frame" x="20" y="379.33333333333331" width="374" height="48"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="40"/>
                                 <color key="textColor" red="0.1083111241" green="0.10833757369999999" blue="0.108309485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Descrição" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zq-Fa-nGR">
-                                <rect key="frame" x="20" y="535" width="85" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descrição" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zq-Fa-nGR">
+                                <rect key="frame" x="20" y="447.33333333333331" width="382" height="23"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -107,6 +104,21 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fft-0i-O1t"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fft-0i-O1t" firstAttribute="trailing" secondItem="gLa-R3-Zev" secondAttribute="trailing" constant="20" id="7EE-K0-uXl"/>
+                            <constraint firstItem="Fft-0i-O1t" firstAttribute="trailing" secondItem="TTv-4N-NuW" secondAttribute="trailing" constant="20" id="92q-wn-pmr"/>
+                            <constraint firstItem="3zq-Fa-nGR" firstAttribute="top" secondItem="TTv-4N-NuW" secondAttribute="bottom" constant="20" id="ELX-ve-HLh"/>
+                            <constraint firstItem="TTv-4N-NuW" firstAttribute="leading" secondItem="Fft-0i-O1t" secondAttribute="leading" constant="20" id="FPm-fR-WLh"/>
+                            <constraint firstItem="Fft-0i-O1t" firstAttribute="trailing" secondItem="3zq-Fa-nGR" secondAttribute="trailing" constant="12" id="LDp-6m-vIn"/>
+                            <constraint firstItem="gLa-R3-Zev" firstAttribute="leading" secondItem="Fft-0i-O1t" secondAttribute="leading" constant="20" id="MVA-oh-lLV"/>
+                            <constraint firstItem="Fft-0i-O1t" firstAttribute="trailing" secondItem="gLa-R3-Zev" secondAttribute="trailing" constant="20" id="WUS-t1-TUK"/>
+                            <constraint firstItem="gLa-R3-Zev" firstAttribute="top" secondItem="Fft-0i-O1t" secondAttribute="top" constant="47" id="XbL-se-GSH"/>
+                            <constraint firstItem="Fft-0i-O1t" firstAttribute="trailing" secondItem="TTv-4N-NuW" secondAttribute="trailing" constant="20" id="i0K-sR-zH9"/>
+                            <constraint firstItem="TTv-4N-NuW" firstAttribute="top" secondItem="gLa-R3-Zev" secondAttribute="bottom" constant="20" id="jNB-DI-x9o"/>
+                            <constraint firstItem="3zq-Fa-nGR" firstAttribute="leading" secondItem="Fft-0i-O1t" secondAttribute="leading" constant="20" id="lAL-hr-ydw"/>
+                            <constraint firstItem="TTv-4N-NuW" firstAttribute="leading" secondItem="Fft-0i-O1t" secondAttribute="leading" constant="20" id="r4C-q2-pbl"/>
+                            <constraint firstItem="gLa-R3-Zev" firstAttribute="leading" secondItem="Fft-0i-O1t" secondAttribute="leading" constant="20" id="wZ0-Av-5df"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cNe-Dl-Zna"/>
                     <connections>
