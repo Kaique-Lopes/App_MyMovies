@@ -9,6 +9,10 @@ import Foundation
 import UIKit
 
 class DetailsMovieViewController: UIViewController {
+    @IBOutlet weak var movieImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
     var movie: Movie!
     
     override func viewDidLoad() {
