@@ -63,7 +63,7 @@
                                     <outlet property="descriptionLabel" destination="trb-fR-PwD" id="Ler-Aa-1fv"/>
                                     <outlet property="movieImageView" destination="mCN-HJ-uLT" id="9rH-Zb-Mfi"/>
                                     <outlet property="titleLabel" destination="phK-aA-tXn" id="bmf-pd-BEq"/>
-                                    <segue destination="Rbu-gZ-6XJ" kind="show" id="WoS-bc-omz"/>
+                                    <segue destination="Rbu-gZ-6XJ" kind="show" identifier="detailsMovie" id="WoS-bc-omz"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

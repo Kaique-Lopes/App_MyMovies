@@ -63,7 +63,11 @@ class ViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        if segue.identifier == "detailsMovie" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                
+            }
+        }
     }
 }
 
