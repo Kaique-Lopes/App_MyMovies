@@ -58,10 +58,7 @@ class ViewController: UITableViewController {
         cell.movieImageView.image = movie.image
         cell.titleLabel.text = movie.title
         cell.descriptionLabel.text = movie.description
-        /*
-        cell.textLabel?.text = movie.title
-        cell.imageView?.image = movie.image
-         */
+        cell.movieImageView.layer.cornerRadius = 15
         return cell
     }
 }
