@@ -16,6 +16,7 @@
 		1E320CDF2651FB3E0095CEF7 /* App_MyMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E320CDD2651FB3E0095CEF7 /* App_MyMovies.xcdatamodeld */; };
 		1E320CE12651FB3E0095CEF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E320CE02651FB3E0095CEF7 /* Assets.xcassets */; };
 		1E320CE42651FB3E0095CEF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E320CE22651FB3E0095CEF7 /* LaunchScreen.storyboard */; };
+		1EAE0F76266079C700038CC4 /* DetailsMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE0F75266079C700038CC4 /* DetailsMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1E320CE02651FB3E0095CEF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E320CE32651FB3E0095CEF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E320CE52651FB3E0095CEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAE0F75266079C700038CC4 /* DetailsMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1E320CD62651FB3E0095CEF7 /* SceneDelegate.swift */,
 				1E320CD82651FB3E0095CEF7 /* ViewController.swift */,
 				1E320CDA2651FB3E0095CEF7 /* Main.storyboard */,
+				1EAE0F75266079C700038CC4 /* DetailsMovieViewController.swift */,
 				1E1F5ECE2660220A00103FA7 /* MovieCell.swift */,
 				1E320CE02651FB3E0095CEF7 /* Assets.xcassets */,
 				1E0464FC2655F2CE00E5AC02 /* Movie.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E320CD92651FB3E0095CEF7 /* ViewController.swift in Sources */,
+				1EAE0F76266079C700038CC4 /* DetailsMovieViewController.swift in Sources */,
 				1E320CD52651FB3E0095CEF7 /* AppDelegate.swift in Sources */,
 				1E1F5ECF2660220A00103FA7 /* MovieCell.swift in Sources */,
 				1E320CDF2651FB3E0095CEF7 /* App_MyMovies.xcdatamodeld in Sources */,
