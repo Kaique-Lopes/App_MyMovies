@@ -9,5 +9,11 @@ import Foundation
 import UIKit
 
 class DetailsMovieViewController: UIViewController {
+    var movie: Movie!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+    }
 }

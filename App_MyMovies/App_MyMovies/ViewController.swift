@@ -61,5 +61,9 @@ class ViewController: UITableViewController {
         cell.movieImageView.layer.cornerRadius = 15
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        <#code#>
+    }
 }
 
